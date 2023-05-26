@@ -1,8 +1,8 @@
 void getTime(int &h, int &m) {
   cout << "Input hour: ";
-  cin >> h;
+  cin >> setw(2)>> h;
   cout << "Input minute: ";
-  cin >> m;
+  cin >> setw(2)>> m;
 }
 
 int subtract(int h1, int m1, int h2, int m2) {
